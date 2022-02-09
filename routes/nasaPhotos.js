@@ -55,7 +55,8 @@ function callAPI(date) {
 
     const endpoint = nasaHost + nasaPath; 
     axios.get(endpoint).then((response) => {
-      resolve(response.data.photos); 
+      if(response.data) resolve(response.data.photos); 
+      else reject(); 
     });
   }); 
 }
