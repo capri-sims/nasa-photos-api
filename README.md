@@ -1,4 +1,4 @@
-# WNDYR API - Mars Rover Photos
+# NASA Mars Rover Photos API 
 generated with express-generator
 
 ## To Run
@@ -10,7 +10,7 @@ Run `npm install`
 
 Run `npm start`
 
-## To test
+## To Test
 Send get request to (or simply open in a browser) 
 
 http://localhost:3000/api/nasa-photos/2022-02-09
